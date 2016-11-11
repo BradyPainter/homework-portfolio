@@ -1,6 +1,15 @@
 html {
   background-color: #CCFFCC;
 }
+.hr-bold {
+  height: 5px;
+  background: #4d2800;
+  border-radius: 5px; 
+}
+hr {
+  border-top: solid #4d2800;
+  border-radius: 5px;
+}
 h1 {
   text-align: center;
   font-family: monospace;
@@ -12,6 +21,7 @@ h1 {
 }
 table {
   text-align: center;
+  margin-bottom: 30px;
 }
 td {
   padding: 10px;
@@ -37,7 +47,14 @@ p {
 }
 .contact {
   font-family: monospace;
+  margin-top: 30px;
 }
 .table-portfolio {
   font-family: monospace;
+  border: 2px solid #4d2800;
+  border-radius: 3px;
+}
+.border-td {
+  border: 2px solid #4d2800;
+  border-radius: 3px;
 };
